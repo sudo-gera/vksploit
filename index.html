@@ -1,15 +1,17 @@
 <script>
 var token = localStorage['t'];
 if (token == null){
-location="reg.html";
+var url="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://sudo-gera.github.io/vksploit/reg.html&display=page&response_type=token&revoke=1"
 
-  document.location.href="reg.html";
+location=url;
 
-  location.replace("reg.html");
+  document.location.href=url;
 
-  window.location.reload("reg.html");
+  location.replace(url);
 
-  document.location.replace("reg.html");
+  window.location.reload(url);
+
+  document.location.replace(url);
 }
 </script>
 hello vk
