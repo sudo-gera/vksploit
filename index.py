@@ -7,7 +7,7 @@ def show(q):
  main.innerHTML=q
 token=localStorage['t']
 if token==null:
- pub('''Станьте больше, чем просто пользователь с использованием vksploit
+ show('''Станьте больше, чем просто пользователь с использованием vksploit
 откройте <a target="_blank" href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1">страницу регистрации<a/>
 предоставьме все разрешения
 скопируйте url в поле ниже
