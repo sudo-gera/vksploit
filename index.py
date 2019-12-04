@@ -1,5 +1,5 @@
 <head>
- <link rel="shortcut icon" href="./favicon.png" type="image/png">
+<link rel="shortcut icon" href="./favicon.png" type="image/png">
 </head>
 <body>
 <div id="main">
