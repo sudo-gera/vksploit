@@ -18,10 +18,11 @@ if token==null:
 def reg_token_h():
  token=reg_token_h.value
  show(token,"debug")
- acc=token.indexOf('access_token=')
+ /*acc=token.indexOf('access_token=')
  if acc>-1:
   oth=token.indexOf('&',acc)
   token=token.slice(acc+13,oth)
   alert(token)
+ */
 reg_token.onclick=reg_token_h()
 </script>
