@@ -14,9 +14,8 @@ if token==null:
 откройте <a target="_blank" href="https://oauth.vk.com/authorize?client_id=2685278&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1">страницу регистрации<a/>
 предоставьме все разрешения
 скопируйте url в поле ниже
-<form>
+<form onsumbit="reg_token_h()">
 <input id="reg_token" type="text">
-<input onckick="reg_token_h()" label="enter" type="button">
 </form>
 <div id="debug"></div>
 ''',"main")
@@ -30,6 +29,6 @@ def reg_token_h():
   token=token.slice(acc+13,oth)
   alert(token)
 reg_token.onclick=reg_token_h()
- '''*/
+ '''*/return False
 </script>
 </body>
