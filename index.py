@@ -20,6 +20,7 @@ if token==null:
 <div id="debug"></div>
 ''',"main")
 def reg_token_h():
+ alert('jell')
  token=reg_token_h.value
  show(token,"debug")
  /*'''
@@ -29,6 +30,6 @@ def reg_token_h():
   token=token.slice(acc+13,oth)
   alert(token)
 reg_token.onclick=reg_token_h()
- '''*/return False
+ '''*/return false
 </script>
 </body>
