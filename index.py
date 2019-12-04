@@ -13,10 +13,11 @@ if token==null:
 <form>
 <input id="reg_token" type="text">
 </form>
+<div id="debug"></div>
 ''',"main")
 def reg_token_h():
  token=reg_token_h.value
- show(token,"main")
+ show(token,"debug")
  alert(token)
  acc=token.indexOf('access_token=')
  if acc>-1:
