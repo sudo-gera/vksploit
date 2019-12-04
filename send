@@ -1,0 +1,1 @@
+python3 ../easyscript/easyscript -c -node -brtg index && git commit -am "send" && git push
