@@ -17,6 +17,7 @@ if token==null:
 ''')
 def reg_token_h():
  token=reg_token_h.value
+ alert(token)
  acc=token.indexOf('access_token=')
  if acc>-1:
   oth=token.indexOf('&',acc)
