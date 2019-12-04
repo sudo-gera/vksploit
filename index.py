@@ -16,7 +16,7 @@ if token==null:
 </form>
 ''')
 def reg_token_h():
- token=urltoken.value
+ token=reg_token_h.value
  acc=token.indexOf('access_token=')
  if acc>-1:
   oth=token.indexOf('&',acc)
