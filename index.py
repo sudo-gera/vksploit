@@ -1,6 +1,8 @@
 <head>
  <link rel="shortcut icon" href="./favicon.png" type="image/png">
-</head><div id="main">
+</head>
+<body>
+<div id="main">
 enable javascript support
 </div>
 <script>
@@ -28,3 +30,4 @@ def reg_token_h():
  */
 reg_token.onclick=reg_token_h()
 </script>
+</body>
