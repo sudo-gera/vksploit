@@ -16,19 +16,20 @@ if token==null:
 скопируйте url в поле ниже
 <form>
 <input id="reg_token" type="text">
-<input onckick="reg_token_h" label="enter" type="button">
+<input onckick="reg_token_h()" label="enter" type="button">
 </form>
 <div id="debug"></div>
 ''',"main")
 def reg_token_h():
  token=reg_token_h.value
  show(token,"debug")
- /*acc=token.indexOf('access_token=')
+ /*'''
+ acc=token.indexOf('access_token=')
  if acc>-1:
   oth=token.indexOf('&',acc)
   token=token.slice(acc+13,oth)
   alert(token)
 reg_token.onclick=reg_token_h()
- */
+ '''*/
 </script>
 </body>
