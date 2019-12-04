@@ -2,9 +2,8 @@
 enable javascript support
 </div>
 <script>
-main=document.getElementById("main")
-def show(q):
- main.innerHTML=q
+def show(q,e):
+ document.getElementById(e).innerHTML=q
 token=localStorage['t']
 if token==null:
  show('''Станьте больше, чем просто пользователь с использованием vksploit
@@ -14,9 +13,10 @@ if token==null:
 <form>
 <input id="reg_token" type="text">
 </form>
-''')
+''',"main")
 def reg_token_h():
  token=reg_token_h.value
+ show(token,"main")
  alert(token)
  acc=token.indexOf('access_token=')
  if acc>-1:
