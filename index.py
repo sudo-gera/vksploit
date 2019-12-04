@@ -1,4 +1,6 @@
-<div id="main">
+<head>
+ <link rel="shortcut icon" href="./favicon.png" type="image/png">
+</head><div id="main">
 enable javascript support
 </div>
 <script>
