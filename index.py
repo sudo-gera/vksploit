@@ -3,7 +3,7 @@
 </head>
 <body>
 <div id="main">
-enable javascript support
+enable javascript support<br>
 </div>
 <script>
 def show(q,e):
