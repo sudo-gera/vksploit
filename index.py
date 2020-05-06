@@ -7,7 +7,7 @@ enable javascript support<br>
 </div>
 <script>
 def show(q,e):
- document.getElementById(e).innerHTML=q
+ document.getElementById(e).textContent=q
 #######################
 token=localStorage['t']
 if token==null:
