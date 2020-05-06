@@ -32,4 +32,5 @@ def reg_token_h():
 reg_token.onclick=reg_token_h()
  '''*/return false
 %*</script>
-</body>*%
+</body>
+*%
