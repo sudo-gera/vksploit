@@ -1,5 +1,5 @@
 <head>
-<link rel="shortcut icon" href="./favicon.png" type="image/png">
+#<link rel="shortcut icon" href="./favicon.png" type="image/png">
 </head>
 <body>
 <div id="main">
@@ -8,6 +8,7 @@ enable javascript support<br>
 <script>
 def show(q,e):
  document.getElementById(e).innerHTML=q
+#######################
 token=localStorage['t']
 if token==null:
  show('''Станьте больше, чем просто пользователь с использованием vksploit
