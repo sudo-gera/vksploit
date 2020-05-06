@@ -1,11 +1,10 @@
-<head>
-#<link rel="shortcut icon" href="./favicon.png" type="image/png">
-</head>
+%*
 <body>
 <div id="main">
-enable javascript support<br>
+enable javascript support
 </div>
 <script>
+*%
 def show(q,e):
  document.getElementById(e).textContent=q
 #######################
@@ -32,5 +31,5 @@ def reg_token_h():
   alert(token)
 reg_token.onclick=reg_token_h()
  '''*/return false
-</script>
-</body>
+%*</script>
+</body>*%
